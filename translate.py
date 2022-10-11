@@ -3,7 +3,7 @@ import os, json
 
 from dotenv import load_dotenv
 load_dotenv()
-
+git commit -m "First commit"
 
 CREDENTIALS = json.loads(os.environ.get('CREDENTIALS'))
 
